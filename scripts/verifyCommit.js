@@ -2,7 +2,7 @@
  * @Author       : zhucaiyun1@xdf.cn
  * @Date         : 2022-03-25 16:09:58
  * @LastEditors  : zhucaiyun1@xdf.cn
- * @LastEditTime : 2022-03-25 16:15:02
+ * @LastEditTime : 2022-03-29 16:04:36
  * @Description  : 描述信息
  */
 
@@ -24,7 +24,6 @@ if (!commitRE.test(msg)) {
     `)
     process.exit(1)
   }
-
 }else{
   console.log('git commit信息校验通过')
 }
